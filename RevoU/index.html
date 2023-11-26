@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>
+            Kalkulator Persegi
+        </title>
+        <link rel="stylesheet" href="css/style.css">
+        
+    </head>
+    <body>
+        <header>
+            <h1>Kalkulator Hitung Persegi</h1>
+        </header>
+        <section class="inputLuas">
+            <h2>HITUNG</h2>
+            <div class="inputSisi" id="inputSisi">
+                <input type="number" id="sisi" placeholder="Masukkan Panjang Sisi">
+            </div>
+            <div class="button">
+                <button id="luas">Hitung Luas</button>
+                <button id="keliling">Hitung Keliling</button>
+                <button id="reset" onclick="eraseText()" value="reset">CLEAR</button>
+
+            </div>
+            <section class="hasilHitung" id="formHasil">
+                <p id="hasilLuas"></p>
+                <p id="hasilKeliling"></p>
+                
+            </section>
+            
+        </section>
+        <script src="./js/index.js"></script>
+    </body>
+</html>
